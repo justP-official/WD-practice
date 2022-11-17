@@ -167,6 +167,7 @@ body {
   margin-bottom: 50px;
 }
 .skills__item {
+  width: 100%;
   /* margin-bottom: 30px; */
 }
 
@@ -179,7 +180,8 @@ body {
 
 .progress-bar {
   display: flex;
-  width: 250px;
+  width: 100%;
+  max-width: inherit;
   height: 4px;
   background-color: #999;
   margin-bottom: 10px;
